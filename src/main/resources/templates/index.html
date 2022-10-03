@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Spring Boot Properites file</h1>
+<table>
+    <tr>
+        <td>Name:</td>
+        <td><p th:text="${name}"></p></td>
+    </tr>
+    Menu:
+    <ul th:if="${menus != null && !menus.isEmpty()}">
+        <li th:each="menu: ${menus}" th:text="${menu}"></li>
+    </ul>
+</table>
+</body>
+</html>
