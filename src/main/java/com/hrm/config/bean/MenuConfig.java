@@ -1,4 +1,4 @@
-package com.amls.application.config.bean;
+package com.hrm.config.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;

@@ -1,7 +1,7 @@
-package com.amls.application.controllers;
+package com.hrm.controllers;
 
-import com.amls.application.config.bean.GlobalConfig;
-import com.amls.application.config.bean.MenuConfig;
+import com.hrm.config.bean.GlobalConfig;
+import com.hrm.config.bean.MenuConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
